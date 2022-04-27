@@ -13,5 +13,45 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="item9">
+      <UniqueIdentifier>{243c2612-d865-4c4b-9e7d-780651b364ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item7">
+      <UniqueIdentifier>{3c7b7b5a-99ed-4325-b935-7ea46ca497aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="item7\AtomicClock.h">
+      <Filter>item7</Filter>
+    </ClInclude>
+    <ClInclude Include="item7\TimeKeeper.h">
+      <Filter>item7</Filter>
+    </ClInclude>
+    <ClInclude Include="item9\BuyTransaction.h">
+      <Filter>item9</Filter>
+    </ClInclude>
+    <ClInclude Include="item9\Transaction.h">
+      <Filter>item9</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="item7\AtomicClock.cpp">
+      <Filter>item7</Filter>
+    </ClCompile>
+    <ClCompile Include="item7\TimeKeeper.cpp">
+      <Filter>item7</Filter>
+    </ClCompile>
+    <ClCompile Include="item9\BuyTransaction.cpp">
+      <Filter>item9</Filter>
+    </ClCompile>
+    <ClCompile Include="item9\Transaction.cpp">
+      <Filter>item9</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
