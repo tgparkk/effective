@@ -8,7 +8,10 @@ class BuyTransaction : public Transaction
 public:
 	BuyTransaction();
 
-public:
-	virtual void logTransction() const;
+private:
+	static std::string createLogString(std::string param)
+	{
+		return param;
+	}
 };
 

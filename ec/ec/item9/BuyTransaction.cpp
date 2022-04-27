@@ -1,16 +1,9 @@
 #include "BuyTransaction.h"
 
 BuyTransaction::BuyTransaction()
+	: Transaction(createLogString("Buy"))
 {
 	std::cout << "BuyTransaction constructor\n" << std::endl;
 
-	logTransaction();
+	
 }
-
-
-
-void BuyTransaction::logTransaction()
-{
-	std::cout << "BuyTransaction logging\n" << std::endl;
-}
-

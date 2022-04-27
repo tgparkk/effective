@@ -5,10 +5,10 @@
 class Transaction
 {
 public:
-	Transaction();
+	explicit Transaction(const std::string& logInfo);
 
-public:
-	virtual void logTransaction() const = 0;
+	void logTransaction(const std::string& logInfo) const;
+
 
 };
 

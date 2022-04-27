@@ -1,15 +1,16 @@
 #include "Transaction.h"
 
-Transaction::Transaction()
+Transaction::Transaction(const std::string& logInfo)
 {
 	std::cout << "Transaction constructor\n" << std::endl;
 
-	logTransaction();
+	logTransaction(logInfo);
 }
 
-/*
-void Transaction::logTransaction()
+
+void Transaction::logTransaction(const std::string& loginfo) const
 {
-	std::cout << "Transaction logging\n" << std::endl;
+	std::cout << "logTransaction : " ;
+	std::cout << loginfo << std::endl;
 }
-*/
+

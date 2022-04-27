@@ -19,7 +19,7 @@ int main()
 
 	delete ptk;
     */
-	
+	std::cout << "Hello World\n" << std::endl;
     BuyTransaction b;
 }
 
