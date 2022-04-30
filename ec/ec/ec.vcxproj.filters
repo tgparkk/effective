@@ -19,6 +19,12 @@
     <Filter Include="item7">
       <UniqueIdentifier>{3c7b7b5a-99ed-4325-b935-7ea46ca497aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="item13">
+      <UniqueIdentifier>{55eed458-e28b-4b7b-bb35-0f7cf6738fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item15">
+      <UniqueIdentifier>{edbf1016-edff-48a0-a5b8-db8e23e34afa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -36,11 +42,20 @@
     <ClInclude Include="item9\Transaction.h">
       <Filter>item9</Filter>
     </ClInclude>
+    <ClInclude Include="item13\Investment.h">
+      <Filter>item13</Filter>
+    </ClInclude>
+    <ClInclude Include="item13\Stock.h">
+      <Filter>item13</Filter>
+    </ClInclude>
+    <ClInclude Include="item15\Investment.h">
+      <Filter>item15</Filter>
+    </ClInclude>
+    <ClInclude Include="item15\Stock.h">
+      <Filter>item15</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="item7\AtomicClock.cpp">
       <Filter>item7</Filter>
     </ClCompile>
@@ -52,6 +67,21 @@
     </ClCompile>
     <ClCompile Include="item9\Transaction.cpp">
       <Filter>item9</Filter>
+    </ClCompile>
+    <ClCompile Include="item13\Investment.cpp">
+      <Filter>item13</Filter>
+    </ClCompile>
+    <ClCompile Include="item13\Stock.cpp">
+      <Filter>item13</Filter>
+    </ClCompile>
+    <ClCompile Include="item15\Investment.cpp">
+      <Filter>item15</Filter>
+    </ClCompile>
+    <ClCompile Include="item15\Stock.cpp">
+      <Filter>item15</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

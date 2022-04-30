@@ -139,6 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="item13\Investment.h" />
+    <ClInclude Include="item13\Stock.h" />
+    <ClInclude Include="item15\Investment.h" />
+    <ClInclude Include="item15\Stock.h" />
     <ClInclude Include="item7\AtomicClock.h" />
     <ClInclude Include="item7\TimeKeeper.h" />
     <ClInclude Include="item9\BuyTransaction.h" />
@@ -146,6 +150,10 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="item13\Investment.cpp" />
+    <ClCompile Include="item13\Stock.cpp" />
+    <ClCompile Include="item15\Investment.cpp" />
+    <ClCompile Include="item15\Stock.cpp" />
     <ClCompile Include="item7\AtomicClock.cpp" />
     <ClCompile Include="item7\TimeKeeper.cpp" />
     <ClCompile Include="item9\BuyTransaction.cpp" />
