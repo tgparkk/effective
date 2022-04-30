@@ -19,7 +19,15 @@ int main()
 {
 	// item 15
 	Stock s;
+	//std::shared_ptr<Investment>pi1(s.m_shared_ptr_Investment);
+	//
+	//bool taxable1 = pi1->isTaxFree();
+
+	//std::cout << taxable1 << std::endl;
 	s.f();
+	
+	int day = s.f2();
+	std::cout << day << std::endl;
 
 
 	// item 13
