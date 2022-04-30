@@ -7,6 +7,11 @@ Transaction::Transaction(const std::string& logInfo)
 	logTransaction(logInfo);
 }
 
+Transaction::~Transaction()
+{
+	std::cout << "Transaction destructor\n" << std::endl;
+}
+
 
 void Transaction::logTransaction(const std::string& loginfo) const
 {
