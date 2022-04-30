@@ -25,6 +25,9 @@
     <Filter Include="item15">
       <UniqueIdentifier>{edbf1016-edff-48a0-a5b8-db8e23e34afa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="item18">
+      <UniqueIdentifier>{93cce5d3-8e15-486f-af8b-ee6f3fd8761e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -42,17 +45,23 @@
     <ClInclude Include="item9\Transaction.h">
       <Filter>item9</Filter>
     </ClInclude>
-    <ClInclude Include="item13\Investment.h">
-      <Filter>item13</Filter>
+    <ClInclude Include="item18\Investment.h">
+      <Filter>item18</Filter>
     </ClInclude>
-    <ClInclude Include="item13\Stock.h">
-      <Filter>item13</Filter>
+    <ClInclude Include="item18\Stock.h">
+      <Filter>item18</Filter>
     </ClInclude>
     <ClInclude Include="item15\Investment.h">
       <Filter>item15</Filter>
     </ClInclude>
     <ClInclude Include="item15\Stock.h">
       <Filter>item15</Filter>
+    </ClInclude>
+    <ClInclude Include="item13\Investment.h">
+      <Filter>item13</Filter>
+    </ClInclude>
+    <ClInclude Include="item13\Stock.h">
+      <Filter>item13</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -68,11 +77,14 @@
     <ClCompile Include="item9\Transaction.cpp">
       <Filter>item9</Filter>
     </ClCompile>
-    <ClCompile Include="item13\Investment.cpp">
-      <Filter>item13</Filter>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="item13\Stock.cpp">
-      <Filter>item13</Filter>
+    <ClCompile Include="item18\Investment.cpp">
+      <Filter>item18</Filter>
+    </ClCompile>
+    <ClCompile Include="item18\Stock.cpp">
+      <Filter>item18</Filter>
     </ClCompile>
     <ClCompile Include="item15\Investment.cpp">
       <Filter>item15</Filter>
@@ -80,8 +92,11 @@
     <ClCompile Include="item15\Stock.cpp">
       <Filter>item15</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="item13\Investment.cpp">
+      <Filter>item13</Filter>
+    </ClCompile>
+    <ClCompile Include="item13\Stock.cpp">
+      <Filter>item13</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

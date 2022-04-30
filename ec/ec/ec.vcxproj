@@ -143,6 +143,8 @@
     <ClInclude Include="item13\Stock.h" />
     <ClInclude Include="item15\Investment.h" />
     <ClInclude Include="item15\Stock.h" />
+    <ClInclude Include="item18\Investment.h" />
+    <ClInclude Include="item18\Stock.h" />
     <ClInclude Include="item7\AtomicClock.h" />
     <ClInclude Include="item7\TimeKeeper.h" />
     <ClInclude Include="item9\BuyTransaction.h" />
@@ -154,6 +156,8 @@
     <ClCompile Include="item13\Stock.cpp" />
     <ClCompile Include="item15\Investment.cpp" />
     <ClCompile Include="item15\Stock.cpp" />
+    <ClCompile Include="item18\Investment.cpp" />
+    <ClCompile Include="item18\Stock.cpp" />
     <ClCompile Include="item7\AtomicClock.cpp" />
     <ClCompile Include="item7\TimeKeeper.cpp" />
     <ClCompile Include="item9\BuyTransaction.cpp" />

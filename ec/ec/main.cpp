@@ -11,21 +11,30 @@
 //#include "item13/Investment.h"
 //#include "item13/Stock.h"
 
-#include "item15/Investment.h"
-#include "item15/Stock.h"
+//#include "item15/Investment.h"
+//#include "item15/Stock.h"
 
+#include "item18/Investment.h"
+#include "item18/Stock.h"
 
 int main()
 {
-	// item 15
+	//item 18
 	Stock s;
-	//std::shared_ptr<Investment>pi1(s.m_shared_ptr_Investment);
-	//
-	//bool taxable1 = pi1->isTaxFree();
+	auto auto_sptrI = s.createInvestment();
+	int day = s.daysHeld(auto_sptrI.get());
+	std::cout << day << std::endl;
 
-	//std::cout << taxable1 << std::endl;
-	s.f();
-	
+
+	// item 15
+	//Stock s;
+	////std::shared_ptr<Investment>pi1(s.m_shared_ptr_Investment);
+	////
+	////bool taxable1 = pi1->isTaxFree();
+
+	////std::cout << taxable1 << std::endl;
+	//s.f();
+	//
 	//int day = s.f2();
 	//std::cout << day << std::endl;
 

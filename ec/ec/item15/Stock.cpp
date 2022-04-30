@@ -2,7 +2,7 @@
 
 Stock::Stock()
 	: Investment()
-	, m_Investment()
+	, m_Investment(static_cast<Investment*>(0))
 {
 	std::cout << ctorS <<" Stock constructor\n" << std::endl;
 	ctorS++;
@@ -22,8 +22,8 @@ void Stock::f()
 {
 	//Investment* pInv = createInvestment();
 
-	std::shared_ptr<Investment> pInv(createInvestment());
-	m_Investment = pInv;
+	//std::shared_ptr<Investment> pInv(createInvestment());
+	m_Investment = std::shared_ptr<Investment> (createInvestment());
 	/*
 	int days = daysHeld(pInv.get());
 
