@@ -26,8 +26,8 @@ int main()
 	//std::cout << taxable1 << std::endl;
 	s.f();
 	
-	int day = s.f2();
-	std::cout << day << std::endl;
+	//int day = s.f2();
+	//std::cout << day << std::endl;
 
 
 	// item 13

@@ -3,10 +3,9 @@
 Stock::Stock()
 	: Investment()
 	, m_Investment()
-
 {
-
-	std::cout << "Stock constructor\n" << std::endl;
+	std::cout << ctorS <<" Stock constructor\n" << std::endl;
+	ctorS++;
 }
 
 Stock::~Stock()
@@ -16,18 +15,16 @@ Stock::~Stock()
 
 Investment* Stock::createInvestment()
 {
-	//std::cout << "Stock createInvestment 함수\n" << std::endl;
 	return new Stock;
 }
 
 void Stock::f()
 {
 	//Investment* pInv = createInvestment();
-	
+
 	std::shared_ptr<Investment> pInv(createInvestment());
-
 	m_Investment = pInv;
-
+	/*
 	int days = daysHeld(pInv.get());
 
 	std::cout << "daysHeld 의 값:" << days <<  std::endl;
@@ -37,7 +34,7 @@ void Stock::f()
 
 	std::cout << "isTax1 의 값:" << isTax1 << std::endl;
 	std::cout << "isTax2 의 값:" << isTax2 << std::endl;
-
+	*/
 	//delete pInv;
 }
 

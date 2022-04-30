@@ -4,7 +4,8 @@ Investment::Investment()
 	:m_day(10),
 	m_tax(true)
 {
-	std::cout << "Investment constructor\n" << std::endl;
+	std::cout << ctorI << " Investment constructor\n" << std::endl;
+	ctorI++;
 }
 
 Investment::~Investment()
