@@ -17,13 +17,19 @@
 #include "item18/Investment.h"
 #include "item18/Stock.h"
 
+#include "item23/WebBrowserBookMarks.h"
+
 int main()
 {
+	// item 23
+	WebBrowserStuff::removeCookies();
+
+
 	//item 18
-	Stock s;
-	auto auto_sptrI = s.createInvestment();
-	int day = s.daysHeld(auto_sptrI.get());
-	std::cout << day << std::endl;
+	//Stock s;
+	//auto auto_sptrI = s.createInvestment();
+	//int day = s.daysHeld(auto_sptrI.get());
+	//std::cout << day << std::endl;
 
 
 	// item 15

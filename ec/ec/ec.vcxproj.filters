@@ -28,6 +28,9 @@
     <Filter Include="item18">
       <UniqueIdentifier>{93cce5d3-8e15-486f-af8b-ee6f3fd8761e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="item23">
+      <UniqueIdentifier>{110ca76a-e967-414b-8535-0bb5867f5c2f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -63,6 +66,15 @@
     <ClInclude Include="item13\Stock.h">
       <Filter>item13</Filter>
     </ClInclude>
+    <ClInclude Include="item23\WebBrowser.h">
+      <Filter>item23</Filter>
+    </ClInclude>
+    <ClInclude Include="item23\WebBrowserBookMarks.h">
+      <Filter>item23</Filter>
+    </ClInclude>
+    <ClInclude Include="item23\WebBrowserCookies.h">
+      <Filter>item23</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item7\AtomicClock.cpp">
@@ -97,6 +109,9 @@
     </ClCompile>
     <ClCompile Include="item13\Stock.cpp">
       <Filter>item13</Filter>
+    </ClCompile>
+    <ClCompile Include="item23\WebBrowser.cpp">
+      <Filter>item23</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
