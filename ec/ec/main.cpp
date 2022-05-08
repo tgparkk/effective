@@ -21,8 +21,21 @@
 
 int main()
 {
+	// item 7
+	AtomicClock ac1;
+
+	ac1.SetMode(9);
+
+	AtomicClock ac2;
+
+	std::cout << "ac2ÀÇ nMode " << ac2.GetMode() << std::endl;
+
+	ac2 = ac1;
+
+	std::cout << "ac2ÀÇ nMode " << ac2.GetMode() << std::endl;
+
 	// item 23
-	WebBrowserStuff::removeCookies();
+	//WebBrowserStuff::removeCookies();
 
 
 	//item 18
