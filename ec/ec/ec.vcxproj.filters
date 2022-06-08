@@ -31,6 +31,9 @@
     <Filter Include="item23">
       <UniqueIdentifier>{110ca76a-e967-414b-8535-0bb5867f5c2f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="item20">
+      <UniqueIdentifier>{6fd59930-7807-427a-baf7-114a9df2a012}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -75,6 +78,12 @@
     <ClInclude Include="item23\WebBrowserCookies.h">
       <Filter>item23</Filter>
     </ClInclude>
+    <ClInclude Include="item20\Window.h">
+      <Filter>item20</Filter>
+    </ClInclude>
+    <ClInclude Include="item20\WindowWithScrollBars.h">
+      <Filter>item20</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item7\AtomicClock.cpp">
@@ -112,6 +121,12 @@
     </ClCompile>
     <ClCompile Include="item23\WebBrowser.cpp">
       <Filter>item23</Filter>
+    </ClCompile>
+    <ClCompile Include="item20\Window.cpp">
+      <Filter>item20</Filter>
+    </ClCompile>
+    <ClCompile Include="item20\WindowWithScrollBars.cpp">
+      <Filter>item20</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

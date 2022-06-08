@@ -14,25 +14,33 @@
 //#include "item15/Investment.h"
 //#include "item15/Stock.h"
 
-#include "item18/Investment.h"
-#include "item18/Stock.h"
+//#include "item18/Investment.h"
+//#include "item18/Stock.h"
 
-#include "item23/WebBrowserBookMarks.h"
+//#include "item23/WebBrowserBookMarks.h"
+
+#include "item20/Window.h"
+#include "item20/WindowWithScrollBars.h"
 
 int main()
 {
+	// item 20
+	WindowWithScrollBars wwsb;
+	wwsb.printNameAndDisplay(wwsb);
+
 	// item 7
-	AtomicClock ac1;
+	//AtomicClock ac1;
 
-	ac1.SetMode(9);
+	//ac1.SetMode(9);
 
-	AtomicClock ac2;
+	//AtomicClock ac2;
 
-	std::cout << "ac2의 nMode " << ac2.GetMode() << std::endl;
+	//std::cout << "ac2의 nMode " << ac2.GetMode() << std::endl;
 
-	ac2 = ac1;
+	//ac2 = ac1;
 
-	std::cout << "ac2의 nMode " << ac2.GetMode() << std::endl;
+	//std::cout << "ac2의 nMode " << ac2.GetMode() << std::endl;
+
 
 	// item 23
 	//WebBrowserStuff::removeCookies();
