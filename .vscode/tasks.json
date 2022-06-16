@@ -15,8 +15,8 @@
                 "-g",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
-                "-I C:\\GIT\\boost_1_79_0",
-                "-L C:\\GIT\\boost_1_79_0\\stage\\lib"
+                "-I", "D:\\GIT2\\boost_1_79_0",
+                "-L", "D:\\GIT2\\boost_1_79_0\\stage\\lib"
             ],
             "group": "build",
             "problemMatcher": {
@@ -66,23 +66,23 @@
             "args": [
                 "/C",
                 "${fileDirname}\\${fileBasenameNoExtension}",
-                "-I C:\\GIT\\boost_1_79_0"
+                "-I", "D:\\GIT2\\boost_1_79_0",
             ]
         },
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe 활성 파일 빌드",
-            "command": "C:/mingw64/bin/g++.exe",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "-I C:\\GIT\\boost_1_79_0"
+                "-I", "D:\\GIT2\\boost_1_79_0",
             ],
             "options": {
-                "cwd": "C:/mingw64/bin"
+                "cwd": "${fileDirname}"
             },
             "problemMatcher": [
                 "$gcc"
@@ -92,6 +92,27 @@
                 "isDefault": true
             },
             "detail": "디버거에서 생성된 작업입니다."
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe 활성 파일 빌드",
+            "command": "C:/msys64/mingw64/bin/g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I", "D:\\GIT2\\boost_1_79_0",
+            ],
+            "options": {
+                "cwd": "C:\\msys64\\mingw64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "컴파일러: C:/msys64/mingw64/bin/g++.exe"
         }
     ]
 }

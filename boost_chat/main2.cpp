@@ -3,7 +3,8 @@
 
 int32_t main()
 {
-    std::cout << "BEAST version : " << 1<< "\n";
+    std::cout << "BEAST version : " << BOOST_VERSION << "\n";
+    std::cout << "BOOST version : " << 1<< "\n";
 
     return 0;
 }

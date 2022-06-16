@@ -15,7 +15,7 @@ void WindowWithScrollBars::display() const
 	std::cout << "WindowWithScrollBars display()" << std::endl;
 }
 
-void WindowWithScrollBars::printNameAndDisplay(Window& w)
+void WindowWithScrollBars::printNameAndDisplay(Window w)
 {
 	std::cout << w.name();
 	w.display();
