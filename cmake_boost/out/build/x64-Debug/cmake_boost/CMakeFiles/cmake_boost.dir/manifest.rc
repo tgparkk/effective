@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/GIT2/effective/cmake_boost/out/build/x64-Debug/cmake_boost/CMakeFiles/cmake_boost.dir/embed.manifest"

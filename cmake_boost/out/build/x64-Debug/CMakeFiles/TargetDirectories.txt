@@ -1,0 +1,5 @@
+D:/GIT2/effective/cmake_boost/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/GIT2/effective/cmake_boost/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/GIT2/effective/cmake_boost/out/build/x64-Debug/cmake_boost/CMakeFiles/cmake_boost.dir
+D:/GIT2/effective/cmake_boost/out/build/x64-Debug/cmake_boost/CMakeFiles/edit_cache.dir
+D:/GIT2/effective/cmake_boost/out/build/x64-Debug/cmake_boost/CMakeFiles/rebuild_cache.dir
