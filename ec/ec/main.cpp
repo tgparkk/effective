@@ -19,14 +19,23 @@
 
 //#include "item23/WebBrowserBookMarks.h"
 
-#include "item20/Window.h"
-#include "item20/WindowWithScrollBars.h"
+//#include "item20/Window.h"
+//#include "item20/WindowWithScrollBars.h"
+
+#include "item25/Widget.h"
+
 
 int main()
 {
+	// item 25
+	Widget a();
+	//Widget b();
+
+	//a.swap(b);
+
 	// item 20
-	WindowWithScrollBars wwsb;
-	wwsb.printNameAndDisplay(wwsb);
+	//WindowWithScrollBars wwsb;
+	//wwsb.printNameAndDisplay(wwsb);
 
 	// item 7
 	//AtomicClock ac1;

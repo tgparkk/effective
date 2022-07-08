@@ -150,6 +150,7 @@
     <ClInclude Include="item23\WebBrowser.h" />
     <ClInclude Include="item23\WebBrowserBookMarks.h" />
     <ClInclude Include="item23\WebBrowserCookies.h" />
+    <ClInclude Include="item25\Widget.h" />
     <ClInclude Include="item7\AtomicClock.h" />
     <ClInclude Include="item7\TimeKeeper.h" />
     <ClInclude Include="item9\BuyTransaction.h" />
@@ -166,6 +167,7 @@
     <ClCompile Include="item20\Window.cpp" />
     <ClCompile Include="item20\WindowWithScrollBars.cpp" />
     <ClCompile Include="item23\WebBrowser.cpp" />
+    <ClCompile Include="item25\Widget.cpp" />
     <ClCompile Include="item7\AtomicClock.cpp" />
     <ClCompile Include="item7\TimeKeeper.cpp" />
     <ClCompile Include="item9\BuyTransaction.cpp" />

@@ -34,6 +34,9 @@
     <Filter Include="item20">
       <UniqueIdentifier>{6fd59930-7807-427a-baf7-114a9df2a012}</UniqueIdentifier>
     </Filter>
+    <Filter Include="item25">
+      <UniqueIdentifier>{3874c3b1-219b-49df-a76b-015679dc3d4c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -84,6 +87,9 @@
     <ClInclude Include="item20\WindowWithScrollBars.h">
       <Filter>item20</Filter>
     </ClInclude>
+    <ClInclude Include="item25\Widget.h">
+      <Filter>item25</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="item7\AtomicClock.cpp">
@@ -127,6 +133,9 @@
     </ClCompile>
     <ClCompile Include="item20\WindowWithScrollBars.cpp">
       <Filter>item20</Filter>
+    </ClCompile>
+    <ClCompile Include="item25\Widget.cpp">
+      <Filter>item25</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
