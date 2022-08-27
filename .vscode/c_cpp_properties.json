@@ -3,8 +3,7 @@
         {
             "name": "GCC",
             "includePath": [
-                "${workspaceFolder}/**",
-                "D:\\GIT2\\boost_1_79_0"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
