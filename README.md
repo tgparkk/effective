@@ -13,3 +13,7 @@ Nosql
 유저의 채팅방 확인시간
 
 테이블 관계 및 nosql 고려
+
+
+react c++ backend
+https://blog.esciencecenter.nl/interact-with-your-c-web-app-using-react-forms-543e676a7634
