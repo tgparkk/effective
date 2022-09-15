@@ -17,3 +17,6 @@ Nosql
 
 react c++ backend
 https://blog.esciencecenter.nl/interact-with-your-c-web-app-using-react-forms-543e676a7634
+
+db-client
+https://www.sommarskog.se/query-plan-mysteries.html#nonsolution
