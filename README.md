@@ -19,6 +19,7 @@ react c++ backend
 https://www.youtube.com/watch?v=X7sl1cHN_Nc&t=2s
 https://blog.esciencecenter.nl/interact-with-your-c-web-app-using-react-forms-543e676a7634
 https://xzio.tistory.com/1741
+https://velog.io/@acccdang/Electron%EC%97%90-Node-C-Addon-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0
 
 db-client
 https://www.sommarskog.se/query-plan-mysteries.html#nonsolution
