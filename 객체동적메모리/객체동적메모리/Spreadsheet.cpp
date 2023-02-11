@@ -85,6 +85,8 @@ void swap(Spreadsheet& first, Spreadsheet& second) noexcept
 
 Spreadsheet& Spreadsheet::operator=(const Spreadsheet& rhs)
 {
+	std::cout << "Copy assignment operator" << std::endl;
+
 	// 자신을 대입하는지 확인한다.
 	if (this == &rhs) {
 		return *this;
